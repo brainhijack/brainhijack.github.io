@@ -504,10 +504,13 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 
-  .contact_us{
-    color: white;
-    outline: 0;
-    font-weight: bold;
-    text-decoration: underline;
-  }
+	.contact_us,.contact_us:hover,
+	.contact_us:focus,
+	.contact_us:active,
+	.contact_us.active {
+		color: white;
+		outline: 0;
+		font-weight: bold;
+		text-decoration: underline;
+	  }
   
