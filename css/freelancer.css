@@ -73,7 +73,7 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-bottom: 50px;
 }
 header img {
@@ -503,3 +503,11 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+  .contact_us{
+    color: white;
+    outline: 0;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
